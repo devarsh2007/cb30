@@ -1,0 +1,61 @@
+basic code of c
+syntax:
+
+#include <stdio.h>
+void main()
+{
+	
+}
+
+
+symbol:
+# - hash
+() - paranthisis
+[] - squre brackets
+{} - curly braces
+: - colon
+; - semi-colon
++,-,*,/,\
+| - pipesign
+<> -angular brackets
+'' - signle cotes
+"" - double cotes
+& - amperson
+
+\n - newline
+\t - tab
+
+
+what is variable?
+	variable is named location in main memory. each variable has 
+		unique address. 
+		unique name. 
+		type.
+		value.
+		
+	how to create variable 
+	
+		syntax 
+		datatype variable-name=value;
+		example
+		int age = 22;
+		float weight = 60.50;
+		char letter = 'a';
+		int country_code = 91;
+		
+	after program finish variable is deleted from memory. it means variable stores data temporary.
+
+access variable
+"%d" - int
+"%f" - float
+"%c" - char
+
+condition making statement
+1) if statement
+
+if(condition)
+{
+
+}
+
+true , false
