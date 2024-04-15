@@ -22,29 +22,27 @@ void main()
       printf("\nenter your choise : ");
       scanf("%d",&choise);
 
-      if(choise==1)
+      switch(choise)
       {
-            printf("addition : %d",a+b);
-      }
+            case 1:
+                 printf("addition : %d",a+b);
+                 break;
 
-      else if(choise==2)
-      {
-            printf("substraction : %d",a-b);
-      }
+            case 2:
+                  printf("substraction : %d",a-b);
+                  break;
 
-      else if(choise==3)
-      {
-            printf("multiplication : %d",a*b);
-      }
+            case 3:
+                  printf("multiplication : %d",a*b);
+                  break;
 
-      else if (choise==4)
-      {
-            printf("division : %d",a/b);
-      }
+            case 4:
+                  printf("division : %d",a/b);
+                  break;
 
-      else
-      {
-            printf("invalid input");
+            default:
+                  printf("invalid input");
+                  break;
       }
       
 }
