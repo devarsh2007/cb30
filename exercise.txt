@@ -3,3 +3,11 @@
 2) write a function that calculate simple interest
 
 3) write a function that calculate compound interest
+
+4) write a program that print patern
+a
+a b 
+a b c
+a b c d
+
+5) write a that check user is valid for voting or not
