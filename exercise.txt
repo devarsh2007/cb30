@@ -11,3 +11,10 @@ a b c
 a b c d
 
 5) write a that check user is valid for voting or not
+
+6) write a program that print patern
+5 5 5 5 5
+4 4 4 4 
+3 3 3 
+2 2 
+1 

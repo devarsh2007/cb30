@@ -27,6 +27,8 @@ void main()
 {
       int choise; //global variable
       int ans;
+      int num1;
+      int num2;
 
       printf("\n----------- option -----------");
       printf("\nenter 1 for addition");
@@ -38,5 +40,38 @@ void main()
       printf("\nenter your choise : ");
       scanf("%d",&choise);
 
+      printf("enter number 1 : ");
+      scanf("%d",&num1);
+
+      printf("enter number 2 : ");
+      scanf("%d",&num2);
+
+
+      switch(choise)
+      {
+            case 1:
+                  ans = add(num1,num2);
+                  printf("%d",ans);
+                  break;
+
+            case 2:
+                  ans = sub(num1,num2);
+                  printf("%d",ans);
+                  break;
+
+            case 3:
+                  ans = mul(num1,num2);
+                  printf("%d",ans);
+                  break;
+            
+            case 4:
+                  ans = div(num1,num2);
+                  printf("%d",ans);
+                  break;
+
+            default:
+                  printf("invalid input");
+                  break;
+      }
 
 }
